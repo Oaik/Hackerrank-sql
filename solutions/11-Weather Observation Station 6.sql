@@ -1,0 +1,1 @@
+SELECT CITY FROM STATION WHERE LEFT(CITY, 1) in ('A', 'E', 'O', 'U', 'I');

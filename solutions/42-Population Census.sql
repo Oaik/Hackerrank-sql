@@ -1,0 +1,1 @@
+SELECT SUM(population) FROM CITY WHERE CountryCode in(SELECT Code FROM COUNTRY WHERE CONTINENT = "Asia")
